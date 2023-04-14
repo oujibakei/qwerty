@@ -1,0 +1,58 @@
+#页面访问端口
+server:
+  port: 9113
+
+# Mysql数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.21.135.11:3306/easym?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
+    username: root
+    password: root
+  application:
+    name: drs
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 1
+    # Redis服务器地址
+    host: 10.21.135.11
+    # Redis服务器连接端口
+    port: 6379
+    #Redis服务器连接密码（默认为空）
+    password: 123456
+  mail:
+    host: smtp.163.com
+    #邮箱地址（当前为陈元亨邮箱）
+    username: 13800000000@163.com
+    #邮箱IMAP/SMTP权限密码（当前为陈元亨密码）
+    password: 5799666
+    default-encoding: UTF-8
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+
+#mybatis配置文件
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+#短信配置文件
+short-message:
+  sms-accesskey-id: hjfjhfhjfhfjhkhkhk              #阿里短信服务的accessID
+  sms-accesskey-secret: lkjlhkhkhkhkh    #阿里短信服务的secret
+  sms-template-id: SMS_0000000                          # 短信模板 id
+
+
+
