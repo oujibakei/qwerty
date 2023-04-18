@@ -124,7 +124,7 @@
                 <snapshotRepository>
                    <!--注意,此id必须与setting.xml中指定的一致-->
                    <id>wangxiaoer</id>
-                   <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+                   <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
                 <repository>
                     <id>wangxiaoer</id>
