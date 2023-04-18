@@ -11,12 +11,12 @@
 	
     <!--gav信息-->
     <groupId>io.github.oujibakei</groupId>
-    <artifactId>qwerty-why</artifactId>
+    <artifactId>qwerty</artifactId>
     <!--需要特别注意,你上传的是SNAPSHOT仓库,所以此处版本号后缀必须带SNAPSHOT-->
     <version>1.0.0-SNAPSHOT</version>
     
 	<!--项目信息...-->
-    <name>qwerty-why</name>
+    <name>qwerty</name>
     <description>qwerty for why</description>
     <url>https://github.com/oujibakei/qwerty</url>
 
