@@ -18,7 +18,6 @@ import org.springframework.stereotype.Component;
  * 发送短信相关业务
  *
  * @author chenyuanheng
- * @date 2022/05/11 14:20
  * @version 1.0
  */
 @Slf4j
@@ -37,7 +36,6 @@ public class ALiShortMessageUtil {
      * 发送短信相关业务
      *
      * @author chenyuanheng
-     * @date 2022/05/11 14:20
      * @version 1.0
      */
     @Test

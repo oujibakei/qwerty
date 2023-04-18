@@ -17,7 +17,6 @@ import javax.mail.internet.MimeMessage;
  *
  * @author chenyuanheng
  * @version 1.0
- * @date 2022/05/11 14:50
  */
 @Slf4j
 @Component
@@ -37,7 +36,6 @@ public class EmailUtil {
      *
      * @author chenyuanheng
      * @version 1.0
-     * @date 2022/05/11 14:50
      */
     @Test
     public void sendSimpleTextMail() {

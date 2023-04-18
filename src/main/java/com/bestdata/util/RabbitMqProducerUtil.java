@@ -12,7 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
  * RabbitMq生产者工具类
  *
  * @author chenyuanheng
- * @Date 2022-05-11 16:48
  */
 @SpringBootTest(classes = WrsApplication.class)
 @RunWith(SpringRunner.class)
